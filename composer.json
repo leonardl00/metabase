@@ -1,8 +1,8 @@
 {
-    "name": "laravolt/metabase",
+    "name": "leonardl00/metabase",
     "description": "Embed Metabase dashboard and question in your application",
     "keywords": [
-        "laravolt",
+        "leonardl00",
         "laravel",
         "metabase"
     ],
@@ -10,15 +10,22 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Bayu Hendra Winata",
-            "email": "uyab.exe@gmail.com"
+            "name": "Leonard Louis",
+            "email": "leo@leonardlouis.dev"
         }
     ],
     "require": {
         "php": "^8.0",
         "illuminate/support": "^8.0|^9.0|^10.0",
-        "lcobucci/jwt": "^4.1"
+        "lcobucci/jwt": "^4.1",
+        "laravolt/metabase": "dev-main"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/leonardl00/metabase"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Laravolt\\Metabase\\": "src"
